@@ -1,0 +1,37 @@
+html, head {height: 100%;}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.car{
+	width: 9%;
+	position: relative;
+	top: 11%;
+	left: 43%;
+}
+
+.car img{
+	width: 100%;
+	display: block;
+}
+
+.wheel{
+	width: 16%;
+    height: 34%;
+    border-radius: 50%;
+    position: absolute;
+    top: 62%;
+    left: 8%;
+    background: url("../images/wheel.png") no-repeat center / cover;
+}
+
+.rear{
+	top: 62%;
+    left: 74%;
+}
+
